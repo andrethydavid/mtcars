@@ -31,3 +31,31 @@ plot(mtcars$mpg ~ mtcars$hp,
 
 
 # EDA con histogramas.
+
+# HISTOGRAMA mtcaras  hist
+
+
+
+```
+
+hist(mtcars$hp,
+      geom="histogram",
+      xlab="caballos de fuerza",
+      main="carros segun caballos de fuerza")
+
+
+```
+
+![image](https://user-images.githubusercontent.com/72534486/217410391-1c212900-b560-465d-8add-a53757879002.png)
+
+```
+
+hist(mtcars$hp, 
+     xlab='caballos de fuerza', 
+     main='Carros segun caballos de fuerza',
+     col='blue' )
+
+```
+
+![image](https://user-images.githubusercontent.com/72534486/217410524-db6a30d2-5e37-4be0-b554-83a663994f6f.png)
+

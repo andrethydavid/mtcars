@@ -28,3 +28,6 @@ plot(mtcars$mpg ~ mtcars$hp,
 ```
 
 ![image](https://user-images.githubusercontent.com/72534486/217407225-6fece192-4a3f-47a6-a2e5-47aa0359962e.png)
+
+
+# EDA con histogramas.

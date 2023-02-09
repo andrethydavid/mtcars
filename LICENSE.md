@@ -65,4 +65,17 @@ hist(mtcars$hp,
 * tener en cuenta que para que el codigo del histograma ejecute o funcione correctamente debe instalar el paquete y la libreria ggplot2.
 
 * Tambien existe otra funcion sin intalar libreria, aunque un poco mas sencillo el histograma, se llama --> hist(mtcars$hp) 
+```
+
+install.packages("ggplot2")
+library(ggplot2)
+
+
+qplot(mtcars$hp,
+      geom="histogram",
+      xlab="Caballos de fuerza",
+      main="Carros según caballos de fuerza"
+
+```
+
 

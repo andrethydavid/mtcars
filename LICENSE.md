@@ -81,6 +81,9 @@ qplot(mtcars$hp,
 
 # EDA con dataset proyecto - histogramas - ggplot2
 
+
+```
+
 ggplot(mtcars, aes(x=hp))+
          geom_histogram()+
          labs(x='Caballos de fuerza',
@@ -91,6 +94,12 @@ ggplot(mtcars, aes(x=hp))+
               panel.grid.major = element_blank(),
               panel.grid.minor = element_blank())
 
+
+```
+![image](https://user-images.githubusercontent.com/72534486/217712277-037e1657-9d84-4ab7-ad96-8607e53ed5ff.png)
+
+
+```
 ggplot(mtcars, aes(x=hp))+
   geom_histogram(binwidth = 30)+
   labs(x='Caballos de fuerza',
@@ -112,3 +121,7 @@ ggplot() + geom_histogram(data=mtcars,
   theme(panel.background = element_blank(),
         panel.grid.major = element_blank(),
         panel.grid.minor = element_blank())
+
+
+```
+

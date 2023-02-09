@@ -60,7 +60,8 @@ hist(mtcars$hp,
 ![image](https://user-images.githubusercontent.com/72534486/217410524-db6a30d2-5e37-4be0-b554-83a663994f6f.png)
 
 
-# NOTA 📝
+# OBSERVACION  📝
+
 
 * tener en cuenta que para que el codigo del histograma ejecute o funcione correctamente debe instalar el paquete y la libreria ggplot2.
 

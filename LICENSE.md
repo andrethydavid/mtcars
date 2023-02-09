@@ -79,4 +79,36 @@ qplot(mtcars$hp,
 
 ```
 
+# EDA con dataset proyecto - histogramas - ggplot2
 
+ggplot(mtcars, aes(x=hp))+
+         geom_histogram()+
+         labs(x='Caballos de fuerza',
+              y='Cantidad de carros',
+              title= 'Cabballos de fuerza en carro seleccionados')+
+        theme(legend.position = "none")+
+        theme(panel.background = element_blank(),
+              panel.grid.major = element_blank(),
+              panel.grid.minor = element_blank())
+
+ggplot(mtcars, aes(x=hp))+
+  geom_histogram(binwidth = 30)+
+  labs(x='Caballos de fuerza',
+       y='Cantidad de carros',
+       title= 'Cabballos de fuerza en carro seleccionados')+
+  theme(legend.position = "none")+
+  theme(panel.background = element_blank(),
+        panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank())
+
+ggplot() + geom_histogram(data=mtcars,
+                          aes(x=hp), fill = 'blue', color = 'red',
+                          binwidth = 20)+
+  labs(x='Caballos de fuerza',
+       y='Cantidad de carros',
+       title= 'Caballos de fuerza en carro seleccionados')+
+  xlim(c(80,288))+
+  theme(legend.position = "none")+
+  theme(panel.background = element_blank(),
+        panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank())

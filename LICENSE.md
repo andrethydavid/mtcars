@@ -136,6 +136,7 @@ boxplot(mtcars$hp,
 
 ```
 
+![image](https://user-images.githubusercontent.com/72534486/217981825-b163be43-c12a-4c99-b5d8-bc90c4a5bc80.png)
 
 
 

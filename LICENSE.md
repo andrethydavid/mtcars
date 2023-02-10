@@ -125,3 +125,17 @@ ggplot() + geom_histogram(data=mtcars,
 
 ```
 
+#  #BOXPLOT 
+
+
+```
+boxplot(mtcars$hp,
+        ylab="caballos de fuerza",
+        main="caballos de fuerza en carros mtcars")
+
+
+```
+
+
+
+

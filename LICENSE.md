@@ -125,7 +125,7 @@ ggplot() + geom_histogram(data=mtcars,
 
 ```
 
-#  #BOXPLOT 
+#  #BOXPLOT  📦
 
 
 ```

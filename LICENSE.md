@@ -160,3 +160,13 @@ mtcars$am <- factor(mtcars$am, levels = c(1,0),
 ![image](https://user-images.githubusercontent.com/72534486/218327632-bda6df63-34e7-4492-9527-403b6f10add0.png)
 
 
+```
+#
+mtcars$am <- factor(mtcars$am, levels = c(TRUE,FALSE),
+                    labels = c("manual","automatico"))
+
+```
+![image](https://user-images.githubusercontent.com/72534486/218327906-5558f676-17d9-47df-977c-30e504b6a66e.png)
+
+
+

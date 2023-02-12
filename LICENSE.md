@@ -168,5 +168,15 @@ mtcars$am <- factor(mtcars$am, levels = c(TRUE,FALSE),
 ```
 ![image](https://user-images.githubusercontent.com/72534486/218327906-5558f676-17d9-47df-977c-30e504b6a66e.png)
 
+```
+
+ggplot(mtcars,aes(hp,qsec))+
+  geom_point(aes(color="red", size=cyl))+
+  labs(x="Caballos de fuerza ", y="Tiempo en 1/4 millas", title="Caballo velocidad segun cilindraje y tipo de caja")+
+  theme(panel.background = element_blank(), panel.grid.major = element_blank())
+
+```
+
+![image](https://user-images.githubusercontent.com/72534486/218328586-8020279e-8b54-4e20-9a70-fa4759f431db.png)
 
 
